@@ -17,8 +17,8 @@ export default class BaseSketch {
 
     this.container.appendChild(this.renderer.domElement);
 
-    this.addCamera();
-    this.camera.position.set(0, 0, 2);
+    this.addCamera(true);
+    this.camera.position.set(0, 1, 4);
     this.camera.lookAt(0, 0, 0);
 
     if (withOrbitControls) {
@@ -43,14 +43,14 @@ export default class BaseSketch {
       );
       return;
     }
-    this.frustumSize = 3;
+    this.frustumSize = 6;
     this.camera = new THREE.OrthographicCamera(
       (this.frustumSize * aspect) / -2,
       (this.frustumSize * aspect) / 2,
       this.frustumSize / 2,
       this.frustumSize / -2,
-      0.3,
-      2000,
+      -1000,
+      1000,
     );
   }
 
