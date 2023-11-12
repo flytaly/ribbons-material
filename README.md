@@ -1,7 +1,5 @@
-# Three.js Boilerplate
+# Ribbons
 
-Three.js boilerplate class. 
+Ribbons made in shaders with single geometry.
 
-- JavaScript + parcel + glslify + prettier
-
-![Screenshot](https://github.com/flytaly/three.js_boilerplate/assets/1577569/7f9a2180-1386-466c-b6aa-0449301b51aa)
+[record.webm](https://github.com/flytaly/tube/assets/1577569/c7629c04-1177-4dc9-ac7a-604edfbe2f0a)
