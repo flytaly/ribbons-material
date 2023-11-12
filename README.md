@@ -2,4 +2,4 @@
 
 Ribbons made in shaders with single geometry.
 
-[record.webm](https://github.com/flytaly/tube/assets/1577569/c7629c04-1177-4dc9-ac7a-604edfbe2f0a)
+[video.webm](https://github.com/flytaly/ribbons-material/assets/1577569/8a10602c-bbae-4880-a05c-e5692d813299)
